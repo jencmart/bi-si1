@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_37A282E8_2E43_4855_88AE_9C5131A9A4CE">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Instala&#269;ní p&#345;íru&#269;ka" xmi.id="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="Informa&#269;ní systém je realizován jako webová aplikace. Uživatelé k ní budou p&#345;istupovat pomocí webového prohlíže&#269;e na&#xA;osobním po&#269;íta&#269;i, pop&#345;. i na jiných za&#345;ízeních disponujících webovým prohlíže&#269;em (uživatelské prost&#345;edí je schopno&#xA;p&#345;izp&#367;sobit se velikosti obrazovky). &#xA;&#xA;Samotná aplikace je umíst&#283;na na webovém serveru, který má p&#345;ístup do databáze MySQL. Databáze musí&#xA;být inicializována spušt&#283;ním skriptu pro vytvo&#345;ení schématu.&#xA;&#xA;Základní postup nasazení lze rozd&#283;lit do následujících &#269;ástí:&#xA;1. Instalace webového serveru.&#xA;2. Instalace databáze MySQL a její inicializace pro fungování s aplikací.&#xA;3. První p&#345;ihlášení do aplikace pomocí webového prohlíže&#269;e."/>
+						<UML:TaggedValue tag="parent" value="EAPK_7143ABFD_7D95_49c0_A8AD_A0930A7B88D3"/>
+						<UML:TaggedValue tag="created" value="2018-05-09 17:58:11"/>
+						<UML:TaggedValue tag="modified" value="2018-05-20 19:54:31"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="InstalacniPrirucka.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2018-05-14 18:30:56"/>
+						<UML:TaggedValue tag="lastsavedate" value="2018-05-09 18:51:01"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=SLA;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="IRINA"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+						<UML:TaggedValue tag="$ea_attsclassified" value="{F99842EC-F07F-4bb9-805E-62C1AF287878}"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_37A282E8_2E43_4855_88AE_9C5131A9A4CE_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Spušt&#283;ní aplikace" xmi.id="EAID_1D1A4875_2E36_459a_B2F6_112D9FB9F6CC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Pro spušt&#283;ní aplikace je nutné p&#345;esunout soubor sla.war do složky webapps v tomcatu a tento soubor p&#345;ejmenovat na ROOT.war. Poté je nutné spustit tomcat ze složky vaší instalace a p&#345;i defaultním nastavení bude nyní aplikace dostupná na adrese &lt;a href=&quot;http://localhost:8080/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://localhost:8080/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;. Do administrace se m&#367;žete p&#345;ihlásit pomocí údaju jméno a heslo “admin” a nebo jako uživatel pomocí údaj&#367; jméno a heslo “user”. &#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+										<UML:TaggedValue tag="date_created" value="2018-05-12 16:54:56"/>
+										<UML:TaggedValue tag="date_modified" value="2018-05-20 19:58:20"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_1D1A4875_2E36_459a_B2F6_112D9FB9F6CC"/>
+										<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="IRINA"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="658"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Instalace databáze" xmi.id="EAID_74815CF7_DA54_433e_857D_9E599D1BCD1A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Pro instalaci databaze je nutné nainstalovat MySQL verze 5. Bali&#269;ek lze stahnout z &lt;a href=&quot;http://dev.mysql.com/downloads/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://dev.mysql.com/downloads/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;. Nebo ješt&#283; lépe využijte nastroje p&#345;íkazové &#345;ádky ve vašem linuxovém systému. Poté pro testovací ú&#269;ely nainstalujte phpMyAdmin (sudo apt-get install phpmyadmin php-mbstring php-gettext) pro snadn&#283;jší administraci databáze a snadný import po&#269;áte&#269;ních dat.&#xA;&#xA;Po nainstalování je nutné vytvo&#345;it novou datábázi (pokud chcete použít ukázkové jdbc pojmenujte databázi jako “sla_testing” a vytvo&#345;te uživatele “root” s prázdným heslem - toto je samoz&#345;ejm&#283; pouze pro testovací ú&#269;ely), ve které vytvo&#345;íte tabulky s pomocí p&#345;íkazu import v phpMyAdmin importujte soubor createTable.sql, který je dodávám s aplikací. Poté importujte po&#269;áte&#269;ní data pomocí souboru insertData.sql. Databáze je p&#345;ipravena k p&#345;ipojení na webový server. &#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+										<UML:TaggedValue tag="date_created" value="2018-05-12 16:52:39"/>
+										<UML:TaggedValue tag="date_modified" value="2018-05-20 19:59:09"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_74815CF7_DA54_433e_857D_9E599D1BCD1A"/>
+										<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="IRINA"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="655"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Instalace webového serveru" xmi.id="EAID_F26E1B5A_78E2_42b1_A6BA_AF9B366964AD" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Nyní je nutné nainstalovat webový server Tomcat (nejlé&#367;e pomocí p&#345;íkazové &#345;ádky). Nejprve nainstalujte javu pomocí p&#345;íkazu “sudo apt-get install default-jdk”. Poté nainstalujte tomcat verze 8 (&lt;a href=&quot;http://tomcat.apache.org/download-80.cgi&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://tomcat.apache.org/download-80.cgi&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;) do libovolné složky ve vašem systému, tato složka bude sloužit pro konfiguraci serveru a import softwaru.&#xA;&#xA;Po nainstalování tomcatu je nutné p&#345;idat JDBC, které se napojí na výše vytvo&#345;enou datábázi pomocí p&#345;idání resource do souboru “(složka vaší tomcat instalace)/conf/context.xml”. Pro správnou funk&#269;nost v aplikaci je nutné, aby m&#283;l tento resource název “jdbc/sla-testing”. P&#345;íklad obsahu takového resource (sla_testing v resource url je název vytvo&#345;ené databáze):&#xA;&#xA;    &amp;lt;Resource name=&quot;jdbc/sla-testing&quot; auth=&quot;Container&quot; type=&quot;javax.sql.DataSource&quot;&#xA;              maxTotal=&quot;100&quot; maxIdle=&quot;30&quot; maxWaitMillis=&quot;10000&quot;&#xA;              username=&quot;root&quot; password=&quot;&quot; driverClassName=&quot;com.mysql.cj.jdbc.Driver&quot;&#xA; url=&quot;jdbc:mysql://localhost:3306/sla_testing?use_SSL=false&#xA;       &quot;/&amp;gt;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+										<UML:TaggedValue tag="date_created" value="2018-05-12 16:52:08"/>
+										<UML:TaggedValue tag="date_modified" value="2018-05-20 19:57:55"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_F26E1B5A_78E2_42b1_A6BA_AF9B366964AD"/>
+										<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="IRINA"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="656"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Node name="MySQL 6.0+" xmi.id="EAID_3805C9F9_B432_4624_9107_E72C4A60BBEC" visibility="public" namespace="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="ExecutionEnvironment"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="owner" value="EAID_E4C21ABF_3A70_4751_B193_A713D8BE6A8C"/>
+								<UML:TaggedValue tag="date_created" value="2018-05-12 10:18:46"/>
+								<UML:TaggedValue tag="date_modified" value="2018-05-12 16:49:37"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3734"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Association name="JNDI" xmi.id="EAID_F11B36EB_7E12_4f94_B827_D162E0C855AF" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="2677"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Apache Tomcat"/>
+								<UML:TaggedValue tag="ea_targetName" value="MySQL 6.0+"/>
+								<UML:TaggedValue tag="ea_sourceType" value="ExecutionEnvironment"/>
+								<UML:TaggedValue tag="ea_targetType" value="ExecutionEnvironment"/>
+								<UML:TaggedValue tag="ea_sourceID" value="3740"/>
+								<UML:TaggedValue tag="ea_targetID" value="3734"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mt" value="JNDI"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_F8A5619C_2D05_4d09_AD85_D6C72D89E281">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_3805C9F9_B432_4624_9107_E72C4A60BBEC">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Node name="PC" xmi.id="EAID_698DA24C_EA84_4aae_9F3E_BE0C589746D5" visibility="public" namespace="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Node"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="date_created" value="2018-05-12 10:07:21"/>
+								<UML:TaggedValue tag="date_modified" value="2018-05-12 10:07:24"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3735"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Component name="Aplikace" xmi.id="EAID_6C422B57_0272_4322_9D82_AF25BDA8258C" visibility="public" namespace="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="Java"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="owner" value="EAID_F8A5619C_2D05_4d09_AD85_D6C72D89E281"/>
+								<UML:TaggedValue tag="date_created" value="2018-05-12 10:19:46"/>
+								<UML:TaggedValue tag="date_modified" value="2018-05-12 10:38:03"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="Java"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3736"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={BC07A04D-31F9-4edb-A0FC-D4E98165F974}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Java;GUID={F68879C1-444F-4c2e-838A-B2F93FDA566F};@ENDSTEREO;$DES;$CLT={6C422B57-0272-4322-9D82-AF25BDA8258C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="SLA" xmi.id="EAID_9D00FC91_BE80_4d88_814F_686847A68C55" visibility="public" namespace="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="schema"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="owner" value="EAID_3805C9F9_B432_4624_9107_E72C4A60BBEC"/>
+								<UML:TaggedValue tag="date_created" value="2018-05-12 10:19:58"/>
+								<UML:TaggedValue tag="date_modified" value="2018-05-12 10:39:23"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="schema"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3737"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={321B9A5E-D1E3-4642-B2D2-CC7A12389EC1}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=schema;GUID={3BA832BA-FAB8-412f-A849-B50F21481036};@ENDSTEREO;$DES;$CLT={9D00FC91-BE80-4d88-814F-686847A68C55}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Node name="Web Browser" xmi.id="EAID_C70EE22F_7330_4861_855B_8D5FC4EC4EE1" visibility="public" namespace="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="ExecutionEnvironment"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="owner" value="EAID_698DA24C_EA84_4aae_9F3E_BE0C589746D5"/>
+								<UML:TaggedValue tag="date_created" value="2018-05-12 10:08:14"/>
+								<UML:TaggedValue tag="date_modified" value="2018-05-12 10:09:04"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3738"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Association name="HTTP" xmi.id="EAID_3F3B2ED8_B0BC_4c83_873B_252C9D872EFD" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="2676"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Web Browser"/>
+								<UML:TaggedValue tag="ea_targetName" value="Apache Tomcat"/>
+								<UML:TaggedValue tag="ea_sourceType" value="ExecutionEnvironment"/>
+								<UML:TaggedValue tag="ea_targetType" value="ExecutionEnvironment"/>
+								<UML:TaggedValue tag="ea_sourceID" value="3738"/>
+								<UML:TaggedValue tag="ea_targetID" value="3740"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mt" value="HTTP"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_C70EE22F_7330_4861_855B_8D5FC4EC4EE1">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_F8A5619C_2D05_4d09_AD85_D6C72D89E281">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Node name="Server" xmi.id="EAID_E4C21ABF_3A70_4751_B193_A713D8BE6A8C" visibility="public" namespace="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Node"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="date_created" value="2018-05-12 10:07:27"/>
+								<UML:TaggedValue tag="date_modified" value="2018-05-12 11:17:44"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3739"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Node name="Apache Tomcat" xmi.id="EAID_F8A5619C_2D05_4d09_AD85_D6C72D89E281" visibility="public" namespace="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="ExecutionEnvironment"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="owner" value="EAID_E4C21ABF_3A70_4751_B193_A713D8BE6A8C"/>
+								<UML:TaggedValue tag="date_created" value="2018-05-12 10:09:15"/>
+								<UML:TaggedValue tag="date_modified" value="2018-05-12 10:35:13"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3740"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Package name="Instalace databáze" xmi.id="EAPK_74815CF7_DA54_433e_857D_9E599D1BCD1A" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Pro instalaci databaze je nutné nainstalovat MySQL verze 5. Bali&#269;ek lze stahnout z &lt;a href=&quot;http://dev.mysql.com/downloads/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://dev.mysql.com/downloads/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;. Nebo ješt&#283; lépe využijte nastroje p&#345;íkazové &#345;ádky ve vašem linuxovém systému. Poté pro testovací ú&#269;ely nainstalujte phpMyAdmin (sudo apt-get install phpmyadmin php-mbstring php-gettext) pro snadn&#283;jší administraci databáze a snadný import po&#269;áte&#269;ních dat.&#xA;&#xA;Po nainstalování je nutné vytvo&#345;it novou datábázi (pokud chcete použít ukázkové jdbc pojmenujte databázi jako “sla_testing” a vytvo&#345;te uživatele “root” s prázdným heslem - toto je samoz&#345;ejm&#283; pouze pro testovací ú&#269;ely), ve které vytvo&#345;íte tabulky s pomocí p&#345;íkazu import v phpMyAdmin importujte soubor createTable.sql, který je dodávám s aplikací. Poté importujte po&#269;áte&#269;ní data pomocí souboru insertData.sql. Databáze je p&#345;ipravena k p&#345;ipojení na webový server. &#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="created" value="2018-05-12 16:52:39"/>
+								<UML:TaggedValue tag="modified" value="2018-05-20 19:59:09"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2018-05-14 18:30:55"/>
+								<UML:TaggedValue tag="lastsavedate" value="2018-05-14 18:30:55"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Instalace webového serveru" xmi.id="EAPK_F26E1B5A_78E2_42b1_A6BA_AF9B366964AD" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Nyní je nutné nainstalovat webový server Tomcat (nejlé&#367;e pomocí p&#345;íkazové &#345;ádky). Nejprve nainstalujte javu pomocí p&#345;íkazu “sudo apt-get install default-jdk”. Poté nainstalujte tomcat verze 8 (&lt;a href=&quot;http://tomcat.apache.org/download-80.cgi&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://tomcat.apache.org/download-80.cgi&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;) do libovolné složky ve vašem systému, tato složka bude sloužit pro konfiguraci serveru a import softwaru.&#xA;&#xA;Po nainstalování tomcatu je nutné p&#345;idat JDBC, které se napojí na výše vytvo&#345;enou datábázi pomocí p&#345;idání resource do souboru “(složka vaší tomcat instalace)/conf/context.xml”. Pro správnou funk&#269;nost v aplikaci je nutné, aby m&#283;l tento resource název “jdbc/sla-testing”. P&#345;íklad obsahu takového resource (sla_testing v resource url je název vytvo&#345;ené databáze):&#xA;&#xA;    &amp;lt;Resource name=&quot;jdbc/sla-testing&quot; auth=&quot;Container&quot; type=&quot;javax.sql.DataSource&quot;&#xA;              maxTotal=&quot;100&quot; maxIdle=&quot;30&quot; maxWaitMillis=&quot;10000&quot;&#xA;              username=&quot;root&quot; password=&quot;&quot; driverClassName=&quot;com.mysql.cj.jdbc.Driver&quot;&#xA; url=&quot;jdbc:mysql://localhost:3306/sla_testing?use_SSL=false&#xA;       &quot;/&amp;gt;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="created" value="2018-05-12 16:52:08"/>
+								<UML:TaggedValue tag="modified" value="2018-05-20 19:57:55"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2018-05-14 18:30:55"/>
+								<UML:TaggedValue tag="lastsavedate" value="2018-05-14 18:30:55"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Spušt&#283;ní aplikace" xmi.id="EAPK_1D1A4875_2E36_459a_B2F6_112D9FB9F6CC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Pro spušt&#283;ní aplikace je nutné p&#345;esunout soubor sla.war do složky webapps v tomcatu a tento soubor p&#345;ejmenovat na ROOT.war. Poté je nutné spustit tomcat ze složky vaší instalace a p&#345;i defaultním nastavení bude nyní aplikace dostupná na adrese &lt;a href=&quot;http://localhost:8080/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://localhost:8080/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;. Do administrace se m&#367;žete p&#345;ihlásit pomocí údaju jméno a heslo “admin” a nebo jako uživatel pomocí údaj&#367; jméno a heslo “user”. &#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+								<UML:TaggedValue tag="created" value="2018-05-12 16:54:56"/>
+								<UML:TaggedValue tag="modified" value="2018-05-20 19:58:20"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2018-05-14 18:30:55"/>
+								<UML:TaggedValue tag="lastsavedate" value="2018-05-14 18:30:55"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="IRINA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="Instala&#269;ní p&#345;íru&#269;ka" xmi.id="EAID_2C1B99BD_FC6F_40c1_8ECF_2475BBC27752" diagramType="DeploymentDiagram" owner="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="IRINA"/>
+				<UML:TaggedValue tag="created_date" value="2018-05-09 17:58:48"/>
+				<UML:TaggedValue tag="modified_date" value="2018-05-12 16:55:54"/>
+				<UML:TaggedValue tag="package" value="EAPK_37A282E8_2E43_4855_88AE_9C5131A9A4CE"/>
+				<UML:TaggedValue tag="type" value="Deployment"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="536"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=780;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=101F3451;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=531;Top=376;Right=641;Bottom=436;" subject="EAID_9D00FC91_BE80_4d88_814F_686847A68C55" seqno="1" style="DUID=3DDB3580;"/>
+				<UML:DiagramElement geometry="Left=528;Top=217;Right=638;Bottom=277;" subject="EAID_6C422B57_0272_4322_9D82_AF25BDA8258C" seqno="2" style="DUID=922B9C2C;"/>
+				<UML:DiagramElement geometry="Left=500;Top=330;Right=670;Bottom=449;" subject="EAID_3805C9F9_B432_4624_9107_E72C4A60BBEC" seqno="3" style="DUID=7AC62CC9;"/>
+				<UML:DiagramElement geometry="Left=497;Top=169;Right=674;Bottom=287;" subject="EAID_F8A5619C_2D05_4d09_AD85_D6C72D89E281" seqno="4" style="DUID=4989EA3E;"/>
+				<UML:DiagramElement geometry="Left=102;Top=174;Right=316;Bottom=285;" subject="EAID_C70EE22F_7330_4861_855B_8D5FC4EC4EE1" seqno="5" style="DUID=AE6E277D;"/>
+				<UML:DiagramElement geometry="Left=427;Top=122;Right=756;Bottom=470;" subject="EAID_E4C21ABF_3A70_4751_B193_A713D8BE6A8C" seqno="6" style="DUID=83B153ED;"/>
+				<UML:DiagramElement geometry="Left=72;Top=125;Right=356;Bottom=314;" subject="EAID_698DA24C_EA84_4aae_9F3E_BE0C589746D5" seqno="7" style="DUID=1806A5B5;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=CX=18:CY=13:OX=-27:OY=12:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F11B36EB_7E12_4f94_B827_D162E0C855AF" style="Mode=3;EOID=7AC62CC9;SOID=4989EA3E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=CX=21:CY=13:OX=-14:OY=24:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3F3B2ED8_B0BC_4c83_873B_252C9D872EFD" style="Mode=3;EOID=4989EA3E;SOID=AE6E277D;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAModel.paramSub/>
+	</XMI.extensions>
+</XMI>

@@ -1,0 +1,1862 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2018-04-16 17:42:09">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_BF6AEA8D_69F8_4b25_95BE_7A31C6380E60">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Model p&#345;ípad&#367; užití" xmi.id="EAPK_BF6AEA8D_69F8_4b25_95BE_7A31C6380E60" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_CE3FC1A3_8EFE_4cf2_AD3F_80E5E2FD3DDC"/>
+						<UML:TaggedValue tag="ea_package_id" value="89"/>
+						<UML:TaggedValue tag="created" value="2018-03-16 11:32:13"/>
+						<UML:TaggedValue tag="modified" value="2018-03-23 21:54:39"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2018-03-22 22:14:05"/>
+						<UML:TaggedValue tag="lastsavedate" value="2018-03-17 14:57:03"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="IRINA"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_BF6AEA8D_69F8_4b25_95BE_7A31C6380E60_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Ú&#269;astníci" xmi.id="EAID_5E7D458B_A653_44c3_8199_60C927062586" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis ú&#269;astníku (rolí), kte&#345;í budou nový systém využívat."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_BF6AEA8D_69F8_4b25_95BE_7A31C6380E60"/>
+										<UML:TaggedValue tag="date_created" value="2018-03-17 15:12:21"/>
+										<UML:TaggedValue tag="date_modified" value="2018-03-25 22:50:14"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5E7D458B_A653_44c3_8199_60C927062586"/>
+										<UML:TaggedValue tag="package_name" value="Model p&#345;ípad&#367; užití"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Jirka"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="90"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="P&#345;ípady užití" xmi.id="EAID_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Kapitola popisuje prípady užití systému pro lyžarský areál. Jedná se o funkcionality související  s evidencí zákazníku, evidencí lyžarských lekcí a správou cipových karet. a knih."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_BF6AEA8D_69F8_4b25_95BE_7A31C6380E60"/>
+										<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+										<UML:TaggedValue tag="date_modified" value="2018-03-23 21:55:05"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+										<UML:TaggedValue tag="package_name" value="Model p&#345;ípad&#367; užití"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Jirka"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="91"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Ú&#269;astníci" xmi.id="EAPK_5E7D458B_A653_44c3_8199_60C927062586" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis ú&#269;astníku (rolí), kte&#345;í budou nový systém využívat."/>
+								<UML:TaggedValue tag="parent" value="EAPK_BF6AEA8D_69F8_4b25_95BE_7A31C6380E60"/>
+								<UML:TaggedValue tag="created" value="2018-03-17 15:12:21"/>
+								<UML:TaggedValue tag="modified" value="2018-03-25 22:50:14"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-03-27 11:25:04"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-03-27 11:25:04"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Jirka"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Actor name="Administrativní pracovník" xmi.id="EAID_02EF0E88_2FBB_41c7_8202_C0B5C35C6E07" visibility="public" namespace="EAPK_5E7D458B_A653_44c3_8199_60C927062586" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Administrativní pracovník lyžarské školy je zodpov&#283;dný za p&#345;ijetí objednávky do lyža&#345;ské školy a následn&#283; zaevidování do systému.&#xA;Muže také lekce rušit."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Actor"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_5E7D458B_A653_44c3_8199_60C927062586"/>
+										<UML:TaggedValue tag="date_created" value="2018-03-17 15:12:21"/>
+										<UML:TaggedValue tag="date_modified" value="2018-03-25 22:51:06"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Ú&#269;astníci"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="jencmart"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="525"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Actor>
+								<UML:Association xmi.id="EAID_4C26E210_1F19_419d_BCB6_F01D9B44055D" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="440"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Administrativní pracovník"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC4 - Zrušit objednávku lekce"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="525"/>
+										<UML:TaggedValue tag="ea_targetID" value="541"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_02EF0E88_2FBB_41c7_8202_C0B5C35C6E07">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_FFDEA33B_6D97_4f6a_A5FE_6E4299410C9D">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_DDA9D47A_EA26_419f_A4E0_A8220341CFB8" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="439"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Administrativní pracovník"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC3 - Objednat novou lekci"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="525"/>
+										<UML:TaggedValue tag="ea_targetID" value="539"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_02EF0E88_2FBB_41c7_8202_C0B5C35C6E07">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Generalization subtype="EAID_02EF0E88_2FBB_41c7_8202_C0B5C35C6E07" supertype="EAID_95A5E553_5A38_445f_8A7E_A2B131733F87" xmi.id="EAID_E24E4CBA_2D5F_4067_8CE7_1921E9E1E0A6" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="438"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Administrativní pracovník"/>
+										<UML:TaggedValue tag="ea_targetName" value="Zam&#283;stnanec"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="Actor"/>
+										<UML:TaggedValue tag="ea_sourceID" value="525"/>
+										<UML:TaggedValue tag="ea_targetID" value="529"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Actor name="Instruktor" xmi.id="EAID_3FA0CF84_6745_45b4_A5DB_206B34DC9CEA" visibility="public" namespace="EAPK_5E7D458B_A653_44c3_8199_60C927062586" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Osoba zodpov&#283;dná za výuku. Na základ&#283; rezervace p&#345;ijme ve stanovený den a &#269;as žáka.  Po lekci zaznamenává jaké byli jeho vstupní schopnosti a jaké jsou jeho výstupní schopnosti. Pokud jsou výstupní schopnosti dostate&#269;né, nechává žáka projet závodním slalomem. Zaznamenává jak dlouho žák slalomem projížd&#283;l. Pokud je žák mladší než 15 let, je zodpov&#283;dný za p&#345;edání žáka zp&#283;t jeho rodi&#269;&#367;m."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Actor"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_5E7D458B_A653_44c3_8199_60C927062586"/>
+										<UML:TaggedValue tag="date_created" value="2018-03-17 15:12:21"/>
+										<UML:TaggedValue tag="date_modified" value="2018-03-25 22:51:29"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Ú&#269;astníci"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Jirí Mlejnek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="526"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Actor>
+								<UML:Association xmi.id="EAID_891AB0BE_5614_4ede_8317_5F8EFF7ADCED" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="437"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Instruktor"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC5 - Zaznamenat informace o lekci"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="526"/>
+										<UML:TaggedValue tag="ea_targetID" value="540"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_3FA0CF84_6745_45b4_A5DB_206B34DC9CEA">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_EA567F6E_37C9_4195_8AC9_B6A9C6A779FA">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Generalization subtype="EAID_3FA0CF84_6745_45b4_A5DB_206B34DC9CEA" supertype="EAID_95A5E553_5A38_445f_8A7E_A2B131733F87" xmi.id="EAID_A4263FDE_A180_462a_88EB_1C996978DFD8" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="436"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Instruktor"/>
+										<UML:TaggedValue tag="ea_targetName" value="Zam&#283;stnanec"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="Actor"/>
+										<UML:TaggedValue tag="ea_sourceID" value="526"/>
+										<UML:TaggedValue tag="ea_targetID" value="529"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Actor name="Pokladní" xmi.id="EAID_5783C23B_13A0_4a4b_8088_85A249530737" visibility="public" namespace="EAPK_5E7D458B_A653_44c3_8199_60C927062586" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Pokladník je zodpov&#283;dný za zprávu a zpracování objednávek v systému. Nahrává objednávky na &#269;ipové karty které následn&#283; p&#345;edává zákazník&#367;m.&#xA;U VIP zákazníku navíc musí po&#345;ídit jejich fotografii a zaznamenat do systému další údaje o zákazníkovi.&#xA;Zárove&#328; p&#345;ijímá navrácené &#269;ipové karty od zákazníku a vrací zálohu za kartu."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Actor"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_5E7D458B_A653_44c3_8199_60C927062586"/>
+										<UML:TaggedValue tag="date_created" value="2018-03-17 15:12:21"/>
+										<UML:TaggedValue tag="date_modified" value="2018-03-25 22:52:23"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Ú&#269;astníci"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="jencmart"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="527"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Actor>
+								<UML:Association xmi.id="EAID_2E08F50C_68CB_4a38_BA14_92A90C6E8088" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="435"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Pokladní"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC9 - Vrátit kartu"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="527"/>
+										<UML:TaggedValue tag="ea_targetID" value="535"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_5783C23B_13A0_4a4b_8088_85A249530737">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_343F1E55_D31A_4043_AF9D_BA136E95D31D">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_3B935AF8_0920_41d6_AD56_45BC95918397" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="433"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Pokladní"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC7 - P&#345;idat nové karty do systému"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="527"/>
+										<UML:TaggedValue tag="ea_targetID" value="537"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_5783C23B_13A0_4a4b_8088_85A249530737">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_B7C1BB9C_E406_4a44_88A3_52107E06FEBE">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_6D69BD1C_3BEE_4dc8_A428_C0328EE9B744" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="431"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Pokladní"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC8 - Vydat &#269;ipovou kartu"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="527"/>
+										<UML:TaggedValue tag="ea_targetID" value="536"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_5783C23B_13A0_4a4b_8088_85A249530737">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_AF7119D6_9078_40e1_9B2C_36BBB9D8F491">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Generalization subtype="EAID_5783C23B_13A0_4a4b_8088_85A249530737" supertype="EAID_95A5E553_5A38_445f_8A7E_A2B131733F87" xmi.id="EAID_79401E65_CFC3_4188_A294_1A0492A325D4" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="430"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Pokladní"/>
+										<UML:TaggedValue tag="ea_targetName" value="Zam&#283;stnanec"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="Actor"/>
+										<UML:TaggedValue tag="ea_sourceID" value="527"/>
+										<UML:TaggedValue tag="ea_targetID" value="529"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Association xmi.id="EAID_8A35D229_C87F_43f3_89F2_FD66004FB644" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="442"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Pokladní"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC6 - Vytvo&#345;it objednávku"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="527"/>
+										<UML:TaggedValue tag="ea_targetID" value="544"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_5783C23B_13A0_4a4b_8088_85A249530737">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_A428F492_D827_450f_9909_CE5986CDDA98">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_BAE02310_C6C4_4f0c_B0A8_39025268CD79" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="428"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Pokladní"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC2 - Upravit údaje o zákazníkovi"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="527"/>
+										<UML:TaggedValue tag="ea_targetID" value="548"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_5783C23B_13A0_4a4b_8088_85A249530737">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_5121FDB3_3631_49b6_8541_CDAC727A3AF1">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_F9C0FF55_3F75_470d_B4DC_279885466C92" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="427"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Pokladní"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC1 - P&#345;idat nového zákazníka"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="527"/>
+										<UML:TaggedValue tag="ea_targetID" value="547"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_5783C23B_13A0_4a4b_8088_85A249530737">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_2A921248_6B4A_4d35_86F0_C9612EF00917">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Actor name="Zákazník" xmi.id="EAID_6AAB9B94_5862_42d6_950B_2DDA5EDA17DC" visibility="public" namespace="EAPK_5E7D458B_A653_44c3_8199_60C927062586" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Muže provést online objednávku &#269;ipové karty. Tu si následn&#283; vyzvedne na pokladn&#283;."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Actor"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_5E7D458B_A653_44c3_8199_60C927062586"/>
+										<UML:TaggedValue tag="date_created" value="2018-03-17 15:12:21"/>
+										<UML:TaggedValue tag="date_modified" value="2018-03-25 22:52:56"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Ú&#269;astníci"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="jencmart"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="528"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Actor>
+								<UML:Association xmi.id="EAID_A9311373_8244_431c_AD37_1FEB37AAA8F4" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="UseCase"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="426"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Zákazník"/>
+										<UML:TaggedValue tag="ea_targetName" value="UC6 - Vytvo&#345;it objednávku"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+										<UML:TaggedValue tag="ea_sourceID" value="528"/>
+										<UML:TaggedValue tag="ea_targetID" value="544"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_6AAB9B94_5862_42d6_950B_2DDA5EDA17DC">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_A428F492_D827_450f_9909_CE5986CDDA98">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Actor name="Zam&#283;stnanec" xmi.id="EAID_95A5E553_5A38_445f_8A7E_A2B131733F87" visibility="public" namespace="EAPK_5E7D458B_A653_44c3_8199_60C927062586" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Actor"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_5E7D458B_A653_44c3_8199_60C927062586"/>
+										<UML:TaggedValue tag="date_created" value="2018-03-17 15:12:21"/>
+										<UML:TaggedValue tag="date_modified" value="2018-03-23 23:20:05"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Ú&#269;astníci"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="jencmart"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="529"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Actor>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="P&#345;ípady užití" xmi.id="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Kapitola popisuje prípady užití systému pro lyžarský areál. Jedná se o funkcionality související  s evidencí zákazníku, evidencí lyžarských lekcí a správou cipových karet. a knih."/>
+								<UML:TaggedValue tag="parent" value="EAPK_BF6AEA8D_69F8_4b25_95BE_7A31C6380E60"/>
+								<UML:TaggedValue tag="created" value="2018-03-19 21:41:03"/>
+								<UML:TaggedValue tag="modified" value="2018-03-23 21:55:05"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-03-27 11:25:04"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-03-27 11:25:04"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Jirka"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="Evidence &#269;ipových karet" xmi.id="EAID_25BF2383_CC36_4845_94C4_129F1AA826C8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis funk&#269;ností systému souvisejících s evidencí &#269;ipových karet.&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-23 22:19:26"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_25BF2383_CC36_4845_94C4_129F1AA826C8"/>
+												<UML:TaggedValue tag="package_name" value="P&#345;ípady užití"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="92"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Evidence lekcí" xmi.id="EAID_3E0950CA_38D7_4665_964F_C6280E8BCD05" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis funk&#269;ností systému souvisejících s evidencí lekcí.&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-23 22:18:57"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_3E0950CA_38D7_4665_964F_C6280E8BCD05"/>
+												<UML:TaggedValue tag="package_name" value="P&#345;ípady užití"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="93"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Evidence objednávek" xmi.id="EAID_91CFABC2_DA35_4191_9FF3_BAB26671D46B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis funk&#269;ností systému souvisejících s evidencí objednávek.&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-25 23:05:19"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_91CFABC2_DA35_4191_9FF3_BAB26671D46B"/>
+												<UML:TaggedValue tag="package_name" value="P&#345;ípady užití"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="94"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Evidence VIP Zákazníku" xmi.id="EAID_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis funk&#269;ností systému souvisejících s evidencí VIP zákazníku."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-23 22:19:06"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156"/>
+												<UML:TaggedValue tag="package_name" value="P&#345;ípady užití"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="95"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Package name="Evidence &#269;ipových karet" xmi.id="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis funk&#269;ností systému souvisejících s evidencí &#269;ipových karet.&#xA;"/>
+										<UML:TaggedValue tag="parent" value="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+										<UML:TaggedValue tag="created" value="2018-03-19 21:41:03"/>
+										<UML:TaggedValue tag="modified" value="2018-03-23 22:19:26"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2018-03-17 15:14:36"/>
+										<UML:TaggedValue tag="lastsavedate" value="2018-03-17 15:14:36"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="jencmart"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:UseCase name="UC9 - Vrátit kartu" xmi.id="EAID_343F1E55_D31A_4043_AF9D_BA136E95D31D" visibility="public" namespace="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Umož&#328;uje zm&#283;nu stavu karty na &quot;nevyp&#367;j&#269;ená&quot;."/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-23 23:06:28"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Evidence &#269;ipových karet"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="535"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:UseCase>
+										<UML:Collaboration xmi.id="EAID_25BF2383_CC36_4845_94C4_129F1AA826C8_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="Systém SLA" xmi.id="EAID_9638FCC7_1ED0_4f38_BA7A_0F6E2F4D8B43" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8"/>
+														<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+														<UML:TaggedValue tag="date_modified" value="2018-03-19 21:41:03"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Evidence &#269;ipových karet"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="jencmart"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="538"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+										<UML:UseCase name="UC8 - Vydat &#269;ipovou kartu" xmi.id="EAID_AF7119D6_9078_40e1_9B2C_36BBB9D8F491" visibility="public" namespace="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Umož&#328;uje zm&#283;nit stav karty na &quot;vyp&#367;j&#269;ená&quot;."/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-25 23:09:50"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Evidence &#269;ipových karet"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="536"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:UseCase>
+										<UML:Dependency client="EAID_A428F492_D827_450f_9909_CE5986CDDA98" supplier="EAID_AF7119D6_9078_40e1_9B2C_36BBB9D8F491" xmi.id="EAID_0AC97DBE_E73C_4667_AF30_305D998E1BB6" visibility="public">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="invokes"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="Dependency"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="invokes"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="conditional" value=" &#xA;«invokes»"/>
+												<UML:TaggedValue tag="ea_localid" value="443"/>
+												<UML:TaggedValue tag="ea_sourceName" value="UC6 - Vytvo&#345;it objednávku"/>
+												<UML:TaggedValue tag="ea_targetName" value="UC8 - Vydat &#269;ipovou kartu"/>
+												<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+												<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+												<UML:TaggedValue tag="ea_sourceID" value="544"/>
+												<UML:TaggedValue tag="ea_targetID" value="536"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={BF97316A-6052-47e3-8C25-F61BFB90D394}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=invokes;GUID={B78A3190-CC69-4208-9545-531193FA96FF};@ENDSTEREO;$DES;$CLT={0AC97DBE-E73C-4667-AF30-305D998E1BB6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="mb" value=" &#xA;«invokes»"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Dependency>
+										<UML:UseCase name="UC7 - P&#345;idat nové karty do systému" xmi.id="EAID_B7C1BB9C_E406_4a44_88A3_52107E06FEBE" visibility="public" namespace="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Umož&#328;uje pokladnímu ru&#269;n&#283; p&#345;idávat nové &#269;ipové karty."/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-25 23:09:35"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Evidence &#269;ipových karet"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="537"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:UseCase>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+								<UML:Package name="Evidence lekcí" xmi.id="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis funk&#269;ností systému souvisejících s evidencí lekcí.&#xA;"/>
+										<UML:TaggedValue tag="parent" value="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+										<UML:TaggedValue tag="created" value="2018-03-19 21:41:03"/>
+										<UML:TaggedValue tag="modified" value="2018-03-23 22:18:57"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2018-03-17 15:14:36"/>
+										<UML:TaggedValue tag="lastsavedate" value="2018-03-17 15:14:36"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="jencmart"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:UseCase name="UC3 - Objednat novou lekci" xmi.id="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18" visibility="public" namespace="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Umož&#328;uje do systému zaznamenat novou objednávku lekce. &#xA;"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-04-16 16:48:25"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Evidence lekcí"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="539"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:UseCase>
+										<UML:Collaboration xmi.id="EAID_3E0950CA_38D7_4665_964F_C6280E8BCD05_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="Systém SLA" xmi.id="EAID_B79A8536_C9A4_484d_93FB_FC49D2EC4035" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05"/>
+														<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+														<UML:TaggedValue tag="date_modified" value="2018-03-19 21:41:03"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Evidence lekcí"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="jencmart"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="542"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+										<UML:UseCase name="UC5 - Zaznamenat informace o lekci" xmi.id="EAID_EA567F6E_37C9_4195_8AC9_B6A9C6A779FA" visibility="public" namespace="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Umož&#328;uje zaznamenávat do systému schopnosti žáka a jiné informace o prob&#283;hlé lekci.&#xA;"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-25 23:04:57"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Evidence lekcí"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="540"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:UseCase>
+										<UML:UseCase name="UC4 - Zrušit objednávku lekce" xmi.id="EAID_FFDEA33B_6D97_4f6a_A5FE_6E4299410C9D" visibility="public" namespace="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Umož&#328;uje ze systému smazat aktivní objednávku a uvolnit instruktora i místo pro další objednávky.&#xA;"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-25 23:03:51"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Evidence lekcí"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="541"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:UseCase>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+								<UML:Package name="Evidence objednávek" xmi.id="EAPK_91CFABC2_DA35_4191_9FF3_BAB26671D46B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis funk&#269;ností systému souvisejících s evidencí objednávek.&#xA;"/>
+										<UML:TaggedValue tag="parent" value="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+										<UML:TaggedValue tag="created" value="2018-03-19 21:41:03"/>
+										<UML:TaggedValue tag="modified" value="2018-03-25 23:05:19"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2018-03-17 15:14:36"/>
+										<UML:TaggedValue tag="lastsavedate" value="2018-03-17 15:14:36"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="jencmart"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Collaboration xmi.id="EAID_91CFABC2_DA35_4191_9FF3_BAB26671D46B_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="Systém SLA" xmi.id="EAID_88B5549F_5B13_4fc4_8A2A_CFAF8D7E0685" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_91CFABC2_DA35_4191_9FF3_BAB26671D46B"/>
+														<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+														<UML:TaggedValue tag="date_modified" value="2018-03-19 21:41:03"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Evidence objednávek"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="jencmart"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="545"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+										<UML:UseCase name="UC6 - Vytvo&#345;it objednávku" xmi.id="EAID_A428F492_D827_450f_9909_CE5986CDDA98" visibility="public" namespace="EAPK_91CFABC2_DA35_4191_9FF3_BAB26671D46B" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Umož&#328;uje vytvo&#345;it novou objednávku &#269;ipové karty."/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_91CFABC2_DA35_4191_9FF3_BAB26671D46B"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-25 23:09:12"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Evidence objednávek"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="544"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:UseCase>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+								<UML:Package name="Evidence VIP Zákazníku" xmi.id="EAPK_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Kapitola obsahuje popis funk&#269;ností systému souvisejících s evidencí VIP zákazníku."/>
+										<UML:TaggedValue tag="parent" value="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+										<UML:TaggedValue tag="created" value="2018-03-19 21:41:03"/>
+										<UML:TaggedValue tag="modified" value="2018-03-23 22:19:06"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2018-03-17 15:14:36"/>
+										<UML:TaggedValue tag="lastsavedate" value="2018-03-17 15:14:36"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="jencmart"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:UseCase name="UC1 - P&#345;idat nového zákazníka" xmi.id="EAID_2A921248_6B4A_4d35_86F0_C9612EF00917" visibility="public" namespace="EAPK_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Umož&#328;uje p&#345;idat do systému nového zákazníka.&#xA;"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-25 22:53:48"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Evidence VIP Zákazníku"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="547"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:UseCase>
+										<UML:UseCase name="UC2 - Upravit údaje o zákazníkovi" xmi.id="EAID_5121FDB3_3631_49b6_8541_CDAC727A3AF1" visibility="public" namespace="EAPK_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Umož&#328;uje upravovat údaje o existujícím zákazníkovi.&#xA;"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156"/>
+												<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+												<UML:TaggedValue tag="date_modified" value="2018-03-25 22:54:51"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Evidence VIP Zákazníku"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="jencmart"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="548"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:UseCase>
+										<UML:Collaboration xmi.id="EAID_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="Systém SLA" xmi.id="EAID_D7DF8306_083B_4b85_9CAB_E6547BA0C853" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156"/>
+														<UML:TaggedValue tag="date_created" value="2018-03-19 21:41:03"/>
+														<UML:TaggedValue tag="date_modified" value="2018-03-19 21:41:03"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Evidence VIP Zákazníku"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="jencmart"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="549"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="Model p&#345;ípad&#367; užití" xmi.id="EAID_F5C5AAC2_BF8D_46ac_8A9A_A5436EB06094" diagramType="UseCaseDiagram" owner="EAPK_BF6AEA8D_69F8_4b25_95BE_7A31C6380E60" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="jencmart"/>
+				<UML:TaggedValue tag="created_date" value="2018-03-16 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2018-03-23 23:23:54"/>
+				<UML:TaggedValue tag="package" value="EAPK_BF6AEA8D_69F8_4b25_95BE_7A31C6380E60"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="91"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=780;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=22B840E2;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=303;Top=82;Right=454;Bottom=198;" subject="EAID_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8" seqno="1" style=" DUID=3A2CDE97;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=86;Top=82;Right=244;Bottom=200;" subject="EAID_5E7D458B_A653_44c3_8199_60C927062586" seqno="2" style=" DUID=85D20A68;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Ú&#269;astníci" xmi.id="EAID_7CFA9507_05BA_48c5_9C48_08509F3CF179" diagramType="UseCaseDiagram" owner="EAPK_5E7D458B_A653_44c3_8199_60C927062586" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="jencmart"/>
+				<UML:TaggedValue tag="created_date" value="2018-03-17 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2018-03-23 23:24:13"/>
+				<UML:TaggedValue tag="package" value="EAPK_5E7D458B_A653_44c3_8199_60C927062586"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="92"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1130;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=7D8D896A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=186;Top=294;Right=231;Bottom=384;" subject="EAID_95A5E553_5A38_445f_8A7E_A2B131733F87" seqno="1" style="DUID=CEF76A5D;"/>
+				<UML:DiagramElement geometry="Left=398;Top=61;Right=443;Bottom=151;" subject="EAID_6AAB9B94_5862_42d6_950B_2DDA5EDA17DC" seqno="2" style="DUID=B44AC796;"/>
+				<UML:DiagramElement geometry="Left=298;Top=66;Right=343;Bottom=156;" subject="EAID_02EF0E88_2FBB_41c7_8202_C0B5C35C6E07" seqno="3" style="DUID=D8F7B148;"/>
+				<UML:DiagramElement geometry="Left=193;Top=61;Right=238;Bottom=151;" subject="EAID_5783C23B_13A0_4a4b_8088_85A249530737" seqno="4" style="DUID=228B8E7B;"/>
+				<UML:DiagramElement geometry="Left=76;Top=59;Right=121;Bottom=149;" subject="EAID_3FA0CF84_6745_45b4_A5DB_206B34DC9CEA" seqno="5" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=86CFA17F;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A4263FDE_A180_462a_88EB_1C996978DFD8" style="Mode=3;EOID=CEF76A5D;SOID=86CFA17F;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_79401E65_CFC3_4188_A294_1A0492A325D4" style="Mode=3;EOID=CEF76A5D;SOID=228B8E7B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E24E4CBA_2D5F_4067_8CE7_1921E9E1E0A6" style="Mode=3;EOID=CEF76A5D;SOID=D8F7B148;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="P&#345;ípady užití" xmi.id="EAID_B6E55652_D0BA_4689_B12D_19611A12E187" diagramType="UseCaseDiagram" owner="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="jencmart"/>
+				<UML:TaggedValue tag="created_date" value="2018-03-19 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2018-03-23 23:24:07"/>
+				<UML:TaggedValue tag="package" value="EAPK_AAC5DDF8_FCB8_4cfc_B7B3_82FCFE585EF8"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="93"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1130;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=CB265D79;ExcludeRTF=1;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=38;Top=137;Right=179;Bottom=217;" subject="EAID_25BF2383_CC36_4845_94C4_129F1AA826C8" seqno="1" style=" DUID=C2053CE2;DUID=A6234B41;"/>
+				<UML:DiagramElement geometry="Left=397;Top=36;Right=527;Bottom=116;" subject="EAID_91CFABC2_DA35_4191_9FF3_BAB26671D46B" seqno="2" style=" DUID=E85A4641;DUID=6DBC920D;"/>
+				<UML:DiagramElement geometry="Left=215;Top=37;Right=351;Bottom=117;" subject="EAID_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156" seqno="3" style=" DUID=8F777083;DUID=5E590B23;"/>
+				<UML:DiagramElement geometry="Left=38;Top=36;Right=173;Bottom=116;" subject="EAID_3E0950CA_38D7_4665_964F_C6280E8BCD05" seqno="4" style=" DUID=438F76BD;DUID=10A6695B;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Evidence &#269;ipových karet" xmi.id="EAID_80FD0997_2005_4570_B617_C04E8E3D8E7E" diagramType="UseCaseDiagram" owner="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="jencmart"/>
+				<UML:TaggedValue tag="created_date" value="2018-03-19 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2018-03-23 23:25:15"/>
+				<UML:TaggedValue tag="package" value="EAPK_25BF2383_CC36_4845_94C4_129F1AA826C8"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="94"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=33FDEEE3;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=601;Top=261;Right=728;Bottom=346;" subject="EAID_A428F492_D827_450f_9909_CE5986CDDA98" seqno="1" style="DUID=58C4029E;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=121;Top=311;Right=166;Bottom=401;" subject="EAID_5783C23B_13A0_4a4b_8088_85A249530737" seqno="2" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=87C9A178;"/>
+				<UML:DiagramElement geometry="Left=340;Top=391;Right=484;Bottom=487;" subject="EAID_343F1E55_D31A_4043_AF9D_BA136E95D31D" seqno="3" style="DUID=E45748E5;"/>
+				<UML:DiagramElement geometry="Left=340;Top=259;Right=485;Bottom=356;" subject="EAID_AF7119D6_9078_40e1_9B2C_36BBB9D8F491" seqno="4" style="DUID=91AF00AB;"/>
+				<UML:DiagramElement geometry="Left=346;Top=132;Right=482;Bottom=223;" subject="EAID_B7C1BB9C_E406_4a44_88A3_52107E06FEBE" seqno="5" style="DUID=CD05F7B2;"/>
+				<UML:DiagramElement geometry="Left=276;Top=97;Right=771;Bottom=507;" subject="EAID_9638FCC7_1ED0_4f38_BA7A_0F6E2F4D8B43" seqno="6" style="DUID=AC3E1FF7;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=48:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_0AC97DBE_E73C_4667_AF30_305D998E1BB6" style="Mode=3;EOID=91AF00AB;SOID=58C4029E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2E08F50C_68CB_4a38_BA14_92A90C6E8088" style="Mode=3;EOID=E45748E5;SOID=87C9A178;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3B935AF8_0920_41d6_AD56_45BC95918397" style="Mode=3;EOID=CD05F7B2;SOID=87C9A178;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6D69BD1C_3BEE_4dc8_A428_C0328EE9B744" style="Mode=3;EOID=91AF00AB;SOID=87C9A178;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8A35D229_C87F_43f3_89F2_FD66004FB644" style="Mode=3;EOID=58C4029E;SOID=87C9A178;Color=-1;LWidth=0;Hidden=1;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Evidence lekcí" xmi.id="EAID_B32D60FA_9F98_4b38_9E5D_A8B85B722A70" diagramType="UseCaseDiagram" owner="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="jencmart"/>
+				<UML:TaggedValue tag="created_date" value="2018-03-19 21:41:03"/>
+				<UML:TaggedValue tag="modified_date" value="2018-03-19 21:41:03"/>
+				<UML:TaggedValue tag="package" value="EAPK_3E0950CA_38D7_4665_964F_C6280E8BCD05"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="95"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=C18FDBBB;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=75;Top=306;Right=120;Bottom=396;" subject="EAID_3FA0CF84_6745_45b4_A5DB_206B34DC9CEA" seqno="1" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=9CE049EE;"/>
+				<UML:DiagramElement geometry="Left=78;Top=127;Right=123;Bottom=217;" subject="EAID_02EF0E88_2FBB_41c7_8202_C0B5C35C6E07" seqno="2" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=3A5A9F23;"/>
+				<UML:DiagramElement geometry="Left=217;Top=310;Right=337;Bottom=390;" subject="EAID_EA567F6E_37C9_4195_8AC9_B6A9C6A779FA" seqno="3" style="DUID=C2469DD2;"/>
+				<UML:DiagramElement geometry="Left=219;Top=196;Right=345;Bottom=280;" subject="EAID_FFDEA33B_6D97_4f6a_A5FE_6E4299410C9D" seqno="4" style="DUID=263D3DF1;"/>
+				<UML:DiagramElement geometry="Left=221;Top=80;Right=347;Bottom=164;" subject="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18" seqno="5" style="DUID=B15FA40C;"/>
+				<UML:DiagramElement geometry="Left=176;Top=45;Right=390;Bottom=409;" subject="EAID_B79A8536_C9A4_484d_93FB_FC49D2EC4035" seqno="6" style="DUID=3C4CA68F;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4C26E210_1F19_419d_BCB6_F01D9B44055D" style="Mode=3;EOID=07035AE3;SOID=A67C85D3;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_DDA9D47A_EA26_419f_A4E0_A8220341CFB8" style="Mode=3;EOID=AD3B93A2;SOID=A67C85D3;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_891AB0BE_5614_4ede_8317_5F8EFF7ADCED" style="Mode=3;EOID=45B5699B;SOID=53E75D77;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Evidence objednávek" xmi.id="EAID_B458FD34_D151_46e9_AA83_032B0C93D279" diagramType="UseCaseDiagram" owner="EAPK_91CFABC2_DA35_4191_9FF3_BAB26671D46B" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="jencmart"/>
+				<UML:TaggedValue tag="created_date" value="2018-03-19 21:41:03"/>
+				<UML:TaggedValue tag="modified_date" value="2018-03-23 23:25:41"/>
+				<UML:TaggedValue tag="package" value="EAPK_91CFABC2_DA35_4191_9FF3_BAB26671D46B"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="96"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=3EA91D32;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=330;Top=189;Right=435;Bottom=259;" subject="EAID_A428F492_D827_450f_9909_CE5986CDDA98" seqno="1" style="DUID=E005F02B;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=155;Top=257;Right=200;Bottom=347;" subject="EAID_5783C23B_13A0_4a4b_8088_85A249530737" seqno="2" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=44DAD5DB;"/>
+				<UML:DiagramElement geometry="Left=158;Top=100;Right=203;Bottom=190;" subject="EAID_6AAB9B94_5862_42d6_950B_2DDA5EDA17DC" seqno="3" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=46DAB7BD;"/>
+				<UML:DiagramElement geometry="Left=256;Top=90;Right=466;Bottom=362;" subject="EAID_88B5549F_5B13_4fc4_8A2A_CFAF8D7E0685" seqno="4" style="DUID=6E70C2C3;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A9311373_8244_431c_AD37_1FEB37AAA8F4" style="Mode=3;EOID=E005F02B;SOID=46DAB7BD;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8A35D229_C87F_43f3_89F2_FD66004FB644" style="Mode=3;EOID=E005F02B;SOID=44DAD5DB;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Evidence VIP Zákazníku" xmi.id="EAID_9B31A3AE_755E_4f79_9206_F998C93A96FD" diagramType="UseCaseDiagram" owner="EAPK_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="jencmart"/>
+				<UML:TaggedValue tag="created_date" value="2018-03-19 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2018-03-23 23:24:19"/>
+				<UML:TaggedValue tag="package" value="EAPK_DC712F9D_7B10_4e67_A6B5_EC0B7EB11156"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="97"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=65FFBEC7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=62;Top=171;Right=107;Bottom=261;" subject="EAID_5783C23B_13A0_4a4b_8088_85A249530737" seqno="1" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=962CDDF6;"/>
+				<UML:DiagramElement geometry="Left=233;Top=199;Right=357;Bottom=282;" subject="EAID_5121FDB3_3631_49b6_8541_CDAC727A3AF1" seqno="2" style="DUID=9DE73F48;"/>
+				<UML:DiagramElement geometry="Left=236;Top=67;Right=359;Bottom=149;" subject="EAID_2A921248_6B4A_4d35_86F0_C9612EF00917" seqno="3" style="DUID=ABCAA264;"/>
+				<UML:DiagramElement geometry="Left=171;Top=30;Right=399;Bottom=430;" subject="EAID_D7DF8306_083B_4b85_9CAB_E6547BA0C853" seqno="4" style="DUID=CC555F91;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BAE02310_C6C4_4f0c_B0A8_39025268CD79" style="Mode=3;EOID=9DE73F48;SOID=962CDDF6;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F9C0FF55_3F75_470d_B4DC_279885466C92" style="Mode=3;EOID=ABCAA264;SOID=962CDDF6;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAModel.paramSub/>
+		<EAModel.scenario>
+			<EAScenario name="Karta není v systému." type="Alternate" weight="1.00" subject="EAID_343F1E55_D31A_4043_AF9D_BA136E95D31D" xmi.id="EAID_57AC9ACA_86D6_4f00_B562_EF03C7FF2EB0">
+				<EAScenarioContent>
+					<path>
+						<step name="Pokladní kartu nep&#345;evezme. Zákazník peníze nedostane. " guid="{9F5DD5A7-D28D-4516-8B71-D78ABDC825B9}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Vrátit kartu" type="Basic Path" weight="0.00" subject="EAID_343F1E55_D31A_4043_AF9D_BA136E95D31D" xmi.id="EAID_8D57F860_3D19_44a0_A403_331E4ED6A07D">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná p&#345;i vrácení &#269;ipové karty zákazníkem. Pokladní spustí proces vrácení &#269;ipové kary." guid="{B4C75B34-CF6B-407b-B761-4105BA508D57}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém požádá o naskenování &#269;ipové karty." guid="{5BE4CD1A-C9AE-42d5-9E40-929B8A3B38F4}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní kartu naskenuje." guid="{117024AB-82B9-4d84-B770-8F5770C4E1A4}" level="3" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém potvrdí naskenování &#269;ipové karty a ozna&#269;í kartu jako vrácenou. Upozorní uživatele že má vrátit zákazníkovi zálohu za kartu." guid="{5FAA2621-69D2-4a4b-9ADE-151B9AC988AD}" level="4" uses="" useslist="" result="" state="" trigger="0" link="">
+							<extension level="4a" guid="{57AC9ACA-86D6-4f00-B562-EF03C7FF2EB0}" join="End"/>
+						</step>
+						<step name="Pokladní  vrátí zálohu za karu zákazníkovi." guid="{A43F0111-1F6E-47fb-9F23-6DE3841FA014}" level="5" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Objednávka ješt&#283; není zaplacená" type="Alternate" weight="2.00" subject="EAID_AF7119D6_9078_40e1_9B2C_36BBB9D8F491" xmi.id="EAID_EC3078BA_A3AC_48fe_8220_FDF355349164">
+				<EAScenarioContent>
+					<path>
+						<step name="Systém zobrazí informací že objednávka ješt&#283; není zaplacená, zobrazí &#269;ástku k zaplacení a potvrzovací tla&#269;ítko, že uživatel vybral peníze." guid="{4131817F-5DF8-452b-A18D-2EEB4364F589}" level="1" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní p&#345;evezme peníze od zákazníka a potvrdí v systému zaplacení objednávky." guid="{4512D840-555F-4eea-B317-D9B4C02915E6}" level="2" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+							<item oldname="UC6 - Vytvo&#345;it objednávku" guid="{A428F492-D827-450f-9909-CE5986CDDA98}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Vydání karty - objednávka na pokladn&#283;" type="Alternate" weight="1.00" subject="EAID_AF7119D6_9078_40e1_9B2C_36BBB9D8F491" xmi.id="EAID_068F01C2_29E2_4236_B516_D0532077D0A9">
+				<EAScenarioContent>
+					<path>
+						<step name="Systém na&#269;te práv&#283; vytvo&#345;enou objednávku na pokladn&#283; (je sem automaticky p&#345;esm&#283;rován po dokon&#269;ení objednávky na pokladn&#283;)." guid="{074CAF29-B921-4735-A1D9-93C5CC5EF1E2}" level="1" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+							<item oldname="UC6 - Vytvo&#345;it objednávku" guid="{A428F492-D827-450f-9909-CE5986CDDA98}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Vydat &#269;ipovou kartu" type="Basic Path" weight="0.00" subject="EAID_AF7119D6_9078_40e1_9B2C_36BBB9D8F491" xmi.id="EAID_55818FA5_BBF1_40a9_8137_58301CD591F1">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná když  zákazník p&#345;ijde na pokladnu." guid="{F3C760FD-D773-42db-9B3F-4F6A93834CDF}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém požádá o vybrání objednávky, ke které se &#269;ipová karta bude vázat. Zobrazí formulá&#345; s povinným polem &#269;íslo objednávky." guid="{0D7D0027-D155-4851-9734-F238D9FDEAE0}" level="2" uses="" useslist="" result="" state="" trigger="0" link="">
+							<extension level="2a" guid="{068F01C2-29E2-4236-B516-D0532077D0A9}" join="{70C0ECF8-13E1-41b7-9539-54B284B48816}"/>
+						</step>
+						<step name="Pokladní  zadá &#269;íslo objednávky, které mu sd&#283;lí zákazník." guid="{EE3D3C58-0A2D-4fd8-B872-F86F47D54E1B}" level="3" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém ov&#283;&#345;í existenci objednávky s tímto &#269;íslem. Na&#269;te objednávku. " guid="{10D9C279-6F57-4f69-9568-73384E1700E6}" level="4" uses="" useslist="" result="" state="" trigger="0" link="">
+							<extension level="4a" guid="{EC3078BA-A3AC-48fe-8220-FDF355349164}" join="{70C0ECF8-13E1-41b7-9539-54B284B48816}"/>
+						</step>
+						<step name="Systém požádá o naskenování &#269;ipové karty." guid="{70C0ECF8-13E1-41b7-9539-54B284B48816}" level="5" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní naskenuje &#269;ipovou kartu." guid="{23A4F914-DDDE-461c-AAC3-5AB855D2DABB}" level="6" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém potvrdí naskenování &#269;ipové karty, uloží data do systému a ozna&#269;í kartu jako vydanou." guid="{A20B487A-120A-493f-8529-88BC0AAD43F2}" level="7" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní p&#345;edá &#269;ipovou kartu zákazníkovi." guid="{D4B63A89-D49A-49d4-8221-857781C28B72}" level="8" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+							<item oldname="UC6 - Vytvo&#345;it objednávku" guid="{A428F492-D827-450f-9909-CE5986CDDA98}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Ano p&#345;eje" type="Alternate" weight="1.00" subject="EAID_B7C1BB9C_E406_4a44_88A3_52107E06FEBE" xmi.id="EAID_53B3327B_D1C8_43b9_AB10_E0407C70755E">
+				<EAScenarioContent>
+					<path>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="P&#345;idat nové karty do systému" type="Basic Path" weight="0.00" subject="EAID_B7C1BB9C_E406_4a44_88A3_52107E06FEBE" xmi.id="EAID_B8CBBD93_3A04_424e_9F02_11C5F8D8F7AC">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná p&#345;i zakoupení nových &#269;ipových karet. Pokladní spustí proces p&#345;idání nových karet do systému." guid="{52CBA431-2C17-4697-91BD-D38F011B6F5E}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zobrazí požadavek o naskenování nové &#269;ipové karty." guid="{853E38E1-BAF9-4c9b-9FFA-D1C04E0E778E}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní naskenuje &#269;ipovou kartu." guid="{4CB737A1-99E1-45af-BA53-FA50571A36AD}" level="3" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém potvrdí naskenování nové karty a její p&#345;idání do systému. Následn&#283; zobrazí dotaz, zdali si uživatel p&#345;eje naskenovat další &#269;ipovou kartu." guid="{981A42F9-1513-4666-BDB8-102068BA5495}" level="4" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní vybere požadovanou možnost." guid="{8F89F4E8-99E2-4f39-994F-56DB2698444E}" level="5" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="5a" guid="{53B3327B-D1C8-43b9-AB10-E0407C70755E}" join="{853E38E1-BAF9-4c9b-9FFA-D1C04E0E778E}"/>
+						</step>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Cena lekce zákazníkovi nevyhovuje." type="Alternate" weight="200.00" subject="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18" xmi.id="EAID_9352A774_4670_46e5_B4CB_1FF7FDFF0291"/>
+			<EAScenario name="Neexistuje žádná volná lekce." type="Alternate" weight="300.00" subject="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18" xmi.id="EAID_E10218CE_7228_4097_85F5_E12700799F92"/>
+			<EAScenario name="Neexistuje volná lekce v terminu" type="Alternate" weight="1.00" subject="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18" xmi.id="EAID_DCEC872E_DF50_4c00_A9F9_AEAF37D08406">
+				<EAScenarioContent>
+					<path>
+						<context>
+							<item oldname="Administrativní pracovník" guid="{02EF0E88-2FBB-41c7-8202-C0B5C35C6E07}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Objednat novou lekci" type="Basic Path" weight="0.00" subject="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18" xmi.id="EAID_C2ABFAFB_24E4_4c9a_976D_0C06AC005BE6">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná po p&#345;íchodu zákazníka který má zájem o objednání lyža&#345;ské lekce v n&#283;jakém termínu. Administrativní pracovník spustí proces objednávky ze svého po&#269;íta&#269;e." guid="{6C3B96E3-253F-43ac-862D-C54692681968}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zobrazí seznam dostupných lekcí spolu s formulá&#345;em, který umožnuje filtrovat lekce podle termínu, ceny a kapacity." guid="{ECF03894-7C00-4e3a-81B0-DF22648D2289}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Po dohod&#283; se zákazníkem Administrativní pracovník klikne na žádanou lekci." guid="{D6B9531B-28FE-4269-B04B-269287AF3A0C}" level="3" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="3a" guid="{74A730B0-F94E-4bf4-A433-BD6AE554F48C}" join="End"/>
+							<extension level="3b" guid="{319E5A18-5FB3-4b60-8DDF-095F26327441}" join="{8B41E099-1847-44bf-8344-ED37D3F8156E}"/>
+						</step>
+						<step name="Systém otev&#345;e objednávací formulá&#345; umož&#328;ující vyplnit jméno, p&#345;íjmení, datum narození, telefon a email na žáka. Dále jméno, p&#345;íjmení a telefon kontaktní osoby. (Tato osoba bude kontaktována nap&#345;. p&#345;i úrazu žáka v pr&#367;b&#283;hu lekce) Jméno, p&#345;íjmení, rodné &#269;íslo, email a telefon jsou povinné údaje. V p&#345;ípad&#283; že je žákovi mén&#283; než 18 let, je povinnost vyplnit i údaje kontaktní osoby." guid="{8B41E099-1847-44bf-8344-ED37D3F8156E}" level="4" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Administrativní pracovník  vyplní požadované údaje. A potvrdí vypln&#283;ní." guid="{E360CAD9-C3C4-447e-8763-5930237D6FAE}" level="5" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zkontroluje vypln&#283;ní povinných údaj&#367;. Následn&#283; zobrazí cenu objednávky a tla&#269;ítko potvrzující zaplacení objednávky." guid="{8E693E3B-D132-475f-A0B3-27DADE9E6C8A}" level="6" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Administrativní pracovník p&#345;evezme od zákazníka peníze za lekci a potvrdí v systému zaplacení objednávky." guid="{7AA66E8E-C3CF-46ea-ADA3-51DABBA96285}" level="7" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém objednávku zpracuje, mimo jiné odešla na vypln&#283;ný email potvrzení objednávky spolu s jejím &#269;íslem a fakturou." guid="{13E942F2-588F-44d0-B978-7C27A9EBC876}" level="8" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="Administrativní pracovník" guid="{02EF0E88-2FBB-41c7-8202-C0B5C35C6E07}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Pro zákazníka jsou všechny lekce moc drahé." type="Alternate" weight="3.00" subject="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18" xmi.id="EAID_319E5A18_5FB3_4b60_8DDF_095F26327441">
+				<EAScenarioContent>
+					<path>
+						<step name="Pokladní se zákazníka zeptá jestli by mu vyhovovala cena s 10% slevou. Pokud ano, zaklikne v termínu slevu." guid="{FA250459-0007-448f-B481-0525F489F64C}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<context>
+							<item oldname="Administrativní pracovník" guid="{02EF0E88-2FBB-41c7-8202-C0B5C35C6E07}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Zakaznik si žádnou lekci nezvoli." type="Alternate" weight="400.00" subject="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18" xmi.id="EAID_323D35E6_85DD_4583_B5AA_50DF36A720D9">
+				<EAScenarioContent>
+					<path>
+						<context>
+							<item oldname="Administrativní pracovník" guid="{02EF0E88-2FBB-41c7-8202-C0B5C35C6E07}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Zakázníkovi žádná lekce nevyhovuje nebo jsou všechny termíny obsazené." type="Alternate" weight="5.00" subject="EAID_62C42CDB_A084_42e4_BDBC_EE51B4CF2C18" xmi.id="EAID_74A730B0_F94E_4bf4_A433_BD6AE554F48C">
+				<EAScenarioContent>
+					<path>
+						<context>
+							<item oldname="Administrativní pracovník" guid="{02EF0E88-2FBB-41c7-8202-C0B5C35C6E07}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Lekce neprob&#283;hla." type="Alternate" weight="1.00" subject="EAID_EA567F6E_37C9_4195_8AC9_B6A9C6A779FA" xmi.id="EAID_5FA9D5A1_16DD_4bb4_A1C3_4E3EB311140A">
+				<EAScenarioContent>
+					<path>
+						<context>
+							<item oldname="Instruktor" guid="{3FA0CF84-6745-45b4-A5DB-206B34DC9CEA}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Zaznamenat informace o lekci" type="Basic Path" weight="0.00" subject="EAID_EA567F6E_37C9_4195_8AC9_B6A9C6A779FA" xmi.id="EAID_BBB3FD21_180B_4c36_A550_767E33B301EA">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná po konci lekce s žákem. Instruktor spustí proces zaznamenání informací o lekci." guid="{7D3D9DAB-90F9-4982-91BD-42C6B274343A}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zobrazí formulá&#345; umož&#328;ující zaznamenat informace o tom, zda lekce prob&#283;hla." guid="{20104A8B-ACBE-4b58-BD38-5DB419F49B66}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Instruktor vybere možnost jestli lekce prob&#283;hla/neprob&#283;hla." guid="{66510919-1B02-4405-8C07-8BE6A84569D7}" level="3" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="3a" guid="{5FA9D5A1-16DD-4bb4-A1C3-4E3EB311140A}" join="End"/>
+						</step>
+						<step name="Systém zobrazí formulá&#345; umož&#328;ující  zaznamenat vstupní a výstupní schopnosti žáka. A p&#345;ípadn&#283; jeho &#269;as jízdy slalomem." guid="{F014E0E0-0EE9-4060-A8CA-60D31336D0CA}" level="4" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Instruktor vyplní formulá&#345;." guid="{7F883CF7-1616-439a-A79F-7D634E3481EE}" level="5" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém pošle emailem blahop&#345;ání žákovi o absolvování lekce. " guid="{21EC4590-F6DD-4f88-9D5E-B3F47407F7F0}" level="6" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="Instruktor" guid="{3FA0CF84-6745-45b4-A5DB-206B34DC9CEA}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name=" Zrušit objednávku lekce" type="Basic Path" weight="0.00" subject="EAID_FFDEA33B_6D97_4f6a_A5FE_6E4299410C9D" xmi.id="EAID_FA2829E2_2C68_42a1_AD92_C612337CF8E1">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná po p&#345;íchodu zákazníka který chce zrušit objednanou lekci. Administrativní pracovník spustí proces vyhledání lekce v systému." guid="{3AE72B74-3026-4c5c-9B0E-8F28D9EDF7AA}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zobrazí folmulá&#345; pro zadání &#269;ísla objednávky." guid="{10273922-EDB4-43f6-8B77-F0A9D2F75581}" level="2" uses="" useslist="" result="" state="" trigger="0" link="">
+							<extension level="2a" guid="{36272BB4-D4BD-46be-862F-7039C21B5CC8}" join="End"/>
+						</step>
+						<step name="Administrativní pracovník vyplní &#269;íslo objednávky, které mu sd&#283;lí zákazník. Jedná se o &#269;íslo objednávky které dostal zákazník do emailu p&#345;i objednání lekce." guid="{DB7F9C7A-63F6-491f-8530-39E92BB6D6AC}" level="3" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="3a" guid="{6A1FE95F-5A6A-4a8b-9610-CDB115402481}" join="{10273922-EDB4-43f6-8B77-F0A9D2F75581}"/>
+						</step>
+						<step name="Systém zobrazí podrobnosti o lekci. Mimo jiné i možnost objednávku zrušit. Ale jen v p&#345;ípade že se lekce bude konat za více jak 24 hodin." guid="{95817CA3-0A32-4aca-8AE5-077286B22FCF}" level="4" uses="" useslist="" result="" state="" trigger="0" link="">
+							<extension level="4a" guid="{F99166BA-D337-4987-A448-8E2C48675ED9}" join="End"/>
+						</step>
+						<step name="Administrativní pracovník potvrdí zrušení lekce." guid="{5FDF7CA6-6E8E-4c60-923E-B4CDBFE38D5D}" level="5" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zobrazí &#269;ástku, která má být zákazníkovi vyplacena. Storno poplatek standardn&#283; &#269;inní 20 %." guid="{02ED3E14-73FA-458b-958E-33C19DD13CE9}" level="6" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Administrativní pracovník  vyplatí zákazníkovi peníze." guid="{F1412882-513E-4c24-9534-B9C04719039C}" level="7" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém uloží zm&#283;nu stavu lekce. Mimo jiné uvolní kapacitu lekce v daném termínu." guid="{99389417-F193-466f-AB26-92C304F2F1EE}" level="8" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="Administrativní pracovník" guid="{02EF0E88-2FBB-41c7-8202-C0B5C35C6E07}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Lekce se koná za mén&#283; než 24 hodin a není možné ji zrušit." type="Alternate" weight="3.00" subject="EAID_FFDEA33B_6D97_4f6a_A5FE_6E4299410C9D" xmi.id="EAID_F99166BA_D337_4987_A448_8E2C48675ED9">
+				<EAScenarioContent>
+					<path>
+						<context>
+							<item oldname="Administrativní pracovník" guid="{02EF0E88-2FBB-41c7-8202-C0B5C35C6E07}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Objednávka s tímto &#269;íslem neexistuje." type="Alternate" weight="2.00" subject="EAID_FFDEA33B_6D97_4f6a_A5FE_6E4299410C9D" xmi.id="EAID_6A1FE95F_5A6A_4a8b_9610_CDB115402481">
+				<EAScenarioContent>
+					<path>
+						<context>
+							<item oldname="Administrativní pracovník" guid="{02EF0E88-2FBB-41c7-8202-C0B5C35C6E07}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Zákazník si &#269;íslo objednávky nepamatuje." type="Alternate" weight="2.00" subject="EAID_FFDEA33B_6D97_4f6a_A5FE_6E4299410C9D" xmi.id="EAID_36272BB4_D4BD_46be_862F_7039C21B5CC8">
+				<EAScenarioContent>
+					<path>
+						<context>
+							<item oldname="Administrativní pracovník" guid="{02EF0E88-2FBB-41c7-8202-C0B5C35C6E07}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Byl vybrán &#269;asov&#283; omezený tarif." type="Alternate" weight="1.00" subject="EAID_A428F492_D827_450f_9909_CE5986CDDA98" xmi.id="EAID_B76B6503_7C6D_4178_87BE_9BB4DAB1510F">
+				<EAScenarioContent>
+					<path>
+						<step name="Systém zobrazí pole pro výb&#283;r data, od n&#283;hož bude tarif platit." guid="{0BE1E95C-0651-45fd-BF93-C87C1B7CAD4A}" level="1" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Zákazník zadá datum." guid="{E6347BDB-F363-40aa-9DD2-84DFBFAA4F45}" level="2" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+							<item oldname="Zákazník" guid="{6AAB9B94-5862-42d6-950B-2DDA5EDA17DC}"/>
+							<item oldname="UC8 - Vydat &#269;ipovou kartu" guid="{AF7119D6-9078-40e1-9B2C-36BBB9D8F491}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Objednávka na pokladn&#283;" type="Alternate" weight="3.00" subject="EAID_A428F492_D827_450f_9909_CE5986CDDA98" xmi.id="EAID_7400192B_FD1E_46c9_9D8B_E1F47013D964">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná po p&#345;íchodu zákazníka do pokladny a požádá Pokladní o zakoupení &#269;ipové karty. Pokladní spustí proces objednávky nové &#269;ipové karty." guid="{D4B388DB-05FE-4ded-8E93-62D1DBF71E74}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém (stejn&#283; jako u online objednávky) zobrazí postupn&#283; výb&#283;r termínu, výb&#283;r tarifu a p&#345;ípadn&#283; den od kterého má být &#269;ipová karta aktivní." guid="{7A3195A2-E17E-4cac-BB92-258EF4FFBFE2}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní vyplní požadované údaje." guid="{C468F4EC-4BC0-419e-9B47-1F3BDCE12FAF}" level="3" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém vyzve k potvrzení platby." guid="{1B61E490-F80F-4aab-A28C-489118872F83}" level="4" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní vybere peníze od zákazníka a potvrdí v systému zaplacení objednávky." guid="{F7A12580-B5A3-42dd-B8D6-ACE91978D797}" level="5" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém uloží objednávku do systému. Následn&#283; se p&#345;esm&#283;ruje na proces vydávání karet." guid="{FD4BD116-A15C-4738-AAF6-58E18F41B9CD}" level="6" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+							<item oldname="Zákazník" guid="{6AAB9B94-5862-42d6-950B-2DDA5EDA17DC}"/>
+							<item oldname="UC8 - Vydat &#269;ipovou kartu" guid="{AF7119D6-9078-40e1-9B2C-36BBB9D8F491}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Platba kartou" type="Alternate" weight="2.00" subject="EAID_A428F492_D827_450f_9909_CE5986CDDA98" xmi.id="EAID_18ECB9DF_FEFF_4670_A8F9_617D138B5305">
+				<EAScenarioContent>
+					<path>
+						<step name="Zákazník je p&#345;esm&#283;rován na platební systém 3. strany." guid="{972CB32C-8E08-44bf-AA3C-067D8CFA5C7B}" level="1" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Systém p&#345;ijme potvrzení platby." guid="{63D6486B-D892-4f4b-9F54-100D7E824B9B}" level="2" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+							<item oldname="Zákazník" guid="{6AAB9B94-5862-42d6-950B-2DDA5EDA17DC}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Vytvo&#345;it objednávku" type="Basic Path" weight="0.00" subject="EAID_A428F492_D827_450f_9909_CE5986CDDA98" xmi.id="EAID_8311254C_B229_4a35_8488_9C53274EEB7E">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná když si zákazník prost&#345;ednictvím webových stránek otev&#345;e proces vytvo&#345;ení online objednávky &#269;ipové karty." guid="{46234ABB-71AE-45ff-9F49-08E340440192}" level="1" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="1a" guid="{7400192B-FD1E-46c9-9D8B-E1F47013D964}" join="End"/>
+						</step>
+						<step name=" Systém zobrazí možnost vybrání termínu, na který si Zákazník p&#345;eje &#269;ipovou kartu zakoupit." guid="{BF4E7768-BE29-4014-94A5-07968FE9E375}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Zákazník vybere termín." guid="{40011ADF-F807-426b-931E-759AECD2634C}" level="3" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zobrazí seznam dostupných tarif&#367;. Budou bu&#271; na po&#269;et jízd nebo &#269;asov&#283; omezené (na po&#269;et dní)" guid="{B30E4C6C-CA54-4adf-B567-94671178917B}" level="4" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Zákazník vybere požadovaný tarif." guid="{4B42162B-990F-41d7-BCBD-1B77BCBF0D32}" level="5" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="5a" guid="{B76B6503-7C6D-4178-87BE-9BB4DAB1510F}" join="{1D1E38A0-B222-4ee5-B18F-DD1AFFFB9BE6}"/>
+						</step>
+						<step name="Systém zobrazí formulá&#345; pro vypln&#283;ní údaj&#367; o zákazníkovi. Jméno, p&#345;íjmení, telefon, email, trvalé bydlišt&#283;. Všechny údaje jsou povinné." guid="{51B32416-5BE0-4525-907B-B1C6C556485A}" level="6" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Zákazník vyplní požadované údaje." guid="{D248E166-C3E4-4134-95E1-8FBD4BCCFDCD}" level="7" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zkontroluje vypln&#283;ní a validitu povinných údaj&#367;, zobrazí finální cenu a zobrazí možnosti placení. Online kartou/hotov&#283; na pokladn&#283;." guid="{1D1E38A0-B222-4ee5-B18F-DD1AFFFB9BE6}" level="8" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Zákazník vybere požadovanou možnost, &#269;ímž potvrdí objednávku." guid="{30016823-2829-4ab7-8892-2242BCDFA6E7}" level="9" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="9a" guid="{18ECB9DF-FEFF-4670-A8F9-617D138B5305}" join="{A1DB9F65-3F7F-4660-9216-7E21D9A180B5}"/>
+						</step>
+						<step name="Systém zobrazí potvrzení objednávky. Následn&#283; odešle potvrzovací email na email který zadal Zákazník p&#345;i vypl&#328;ování objednávky." guid="{A1DB9F65-3F7F-4660-9216-7E21D9A180B5}" level="10" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+							<item oldname="Zákazník" guid="{6AAB9B94-5862-42d6-950B-2DDA5EDA17DC}"/>
+							<item oldname="UC8 - Vydat &#269;ipovou kartu" guid="{AF7119D6-9078-40e1-9B2C-36BBB9D8F491}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name=" P&#345;idat nového zákazníka" type="Basic Path" weight="0.00" subject="EAID_2A921248_6B4A_4d35_86F0_C9612EF00917" xmi.id="EAID_D8088E39_10D3_4970_883F_A1FFF15D1630">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná po p&#345;íchodu neregistrovaného VIP zákazníka, který má zájem stát se VIP &#269;lenem. Pokladní spustí proces registrace ze svého po&#269;íta&#269;e." guid="{9AF5A234-27C4-471c-9A72-3E69C6B6E86B}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zobrazí formulá&#345; umož&#328;ující vyplnit jméno, p&#345;íjmení, rodné &#269;íslo, telefon, email a adresu trvalého bydlište. Jméno, p&#345;íjmení, rodné &#269;íslo, email a adresa trvalého bydlišt&#283; jsou povinné údaje." guid="{93B848F3-535E-416d-8C16-7D3C53F270CE}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní vyplní požadované údaje." guid="{A3519242-2FF9-4918-97E9-63B865741F79}" level="3" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zkontroluje, zda došlo k vypln&#283;ní povinných údaj&#367; a vyzve k vyfotografování zákazníka." guid="{38BCDCB5-9BD6-4e35-B9F5-C61127A461D0}" level="4" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní vyfotografuje zákazníka." guid="{C9DB0B15-90BC-44eb-8CF6-C798572B7F1F}" level="5" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zobrazí fotografii a potvrzení zdali je foto dostate&#269;n&#283; kvalitní." guid="{FDE93692-6C44-424f-9170-666EB73F30B5}" level="6" uses="" useslist="" result="" state="" trigger="0" link="">
+							<extension level="6a" guid="{D5BC84EF-5F19-4afe-9AC6-22F4159BF328}" join="{38BCDCB5-9BD6-4e35-B9F5-C61127A461D0}"/>
+						</step>
+						<step name="Pokladní potvrdí." guid="{96F2B2A9-E24A-4461-BDF9-3836EE27C8EE}" level="7" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém požádá o vložení VIP karty do tiskárny." guid="{D8018F41-0E46-4a34-A7D5-7F4D7B73A287}" level="8" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní vloží kartu do tiskárny." guid="{AF3E398E-7D86-4565-A06C-D25A70DE60C9}" level="9" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém vytiskne na &#269;ipovou kartu fotografii zákazníka. Následne požádá o naskenování &#269;ipové karty." guid="{57E2CA1F-A3FE-4aa7-B448-5708BBED17C5}" level="10" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní &#269;ipovou kartu vyjme z tiskárny a naskenuje ji." guid="{6D28D811-676A-4837-B71E-576E30480141}" level="11" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém potvrdí sken &#269;ipové karty. A požádá o potvrzení zaplacení VIP poplatku." guid="{3768FC62-72DC-4e2b-BF0E-7379E79A423E}" level="12" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní vybere peníze od zákazníka poplatek za registraci a potvrdí zaplacení." guid="{331ED460-0653-4f4e-9213-BEEBEE845432}" level="13" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém potvrdí celý proces registrace VIP zákazníka jako hotový. Všechny zadané informace v&#269;etn&#283; fotografie uloží." guid="{2034EA21-C754-4b39-8880-040AF36FE9CA}" level="14" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Foto není dostate&#269;n&#283; kvalitní" type="Alternate" weight="1.00" subject="EAID_2A921248_6B4A_4d35_86F0_C9612EF00917" xmi.id="EAID_D5BC84EF_5F19_4afe_9AC6_22F4159BF328">
+				<EAScenarioContent>
+					<path>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name=" Upravit údaje o zákazníkovi" type="Basic Path" weight="0.00" subject="EAID_5121FDB3_3631_49b6_8541_CDAC727A3AF1" xmi.id="EAID_AF540221_7283_45ed_A188_5CB912D50A03">
+				<EAScenarioContent>
+					<path>
+						<step name="P&#345;ípad užití za&#269;íná p&#345;i nahlášení zm&#283;ny v údajích zákazníkem. Pokladní spustí zm&#283;nu údaj&#367;. " guid="{D9947A6A-FFDD-4820-B5B0-CA882DC7247B}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zobrazí formulá&#345; umož&#328;ující zm&#283;nit veškeré informace zadávané p&#345;i registraci viz. P&#345;idat nového zákazníka&quot;" guid="{EFFCF23E-B1CE-43d8-A425-AAC37F3E12FC}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Pokladní zm&#283;ní požadované údaje." guid="{2FB20655-B9C3-4cb0-B239-AB84083C225B}" level="3" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Systém zkontroluje, zda nedošlo k odstran&#283;ní povinných údaj&#367;. Následn&#283; veškerá data uloží." guid="{3F2EF7E3-4DC6-4e25-ACCB-D076F266C264}" level="4" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="Pokladní" guid="{5783C23B-13A0-4a4b-8088-85A249530737}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+		</EAModel.scenario>
+	</XMI.extensions>
+</XMI>
